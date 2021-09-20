@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int Candidateage;
+
+    cout << " the age of the candidate :"<<endl;
+    cin >> Candidateage;
+
+    if (Candidateage < 18)
+    {
+        cout << "Sorry, You are not eligible to vote." <<endl;
+        cout << "You are eligible to vote after " << 18-Candidateage << " year" <<endl;
+    }
+    else
+    {
+         cout << "Congratulation! You are eligible for voting." << endl ;
+    }
+    return 0;
+
+}
